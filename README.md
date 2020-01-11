@@ -50,6 +50,7 @@ let result = await connected(INSERT);
 release();
 ```
 
-connected 함수는 query를 날리는 함수이고 release 함수는 커넥션을 커넥션풀로 도와주는 함수입니다.
 
-반드시 사용후 커넥션풀로 돌려줍시다.
+connected 함수로 query를 날리는 것이 가능합니다.
+
+release 함수는 연결된 커넥션을 커넥션풀로 돌려주는 함수입니다.

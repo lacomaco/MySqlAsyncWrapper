@@ -1,0 +1,28 @@
+{
+  "name": "@lacomaco/mysqlasyncwrapper",
+  "version": "0.0.1",
+  "description": "node js MySql module wrapper. it wrapping MySql and return promise. so you could use async/await syntax it in !",
+  "main": "./lib/ConnectionWrapper.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lacomaco/MySqlAsyncWrapper.git"
+  },
+  "keywords": [
+    "MysqlAsyncWrapper"
+  ],
+  "author": "LacoMaco",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lacomaco/MySqlAsyncWrapper/issues"
+  },
+  "homepage": "https://github.com/lacomaco/MySqlAsyncWrapper#readme",
+  "dependencies": {
+    "mysql": "^2.17.1"
+  }
+}

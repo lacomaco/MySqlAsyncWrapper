@@ -19,4 +19,3 @@ node js mysql 모듈을 감싸 Promise 기반의 모듈로 변형하는 역할�
 ![file](./images/Config.png);
 
 설정에 대한 자세한 옵션들은 mysql 홈페이지에서 확인해주세요 . (https://www.npmjs.com/package/mysql)
-

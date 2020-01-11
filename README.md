@@ -1,4 +1,4 @@
-https://www.npmjs.com/package/@lacomaco/mysqlasyncwrapper
+https://www.npmjs.com/package/mysqlasyncawaitwrapper
 
 # MysqlAsyncWrapper
 

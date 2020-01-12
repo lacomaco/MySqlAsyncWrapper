@@ -2,7 +2,7 @@ https://www.npmjs.com/package/mysqlasyncawaitwrapper
 
 # MysqlAsyncWrapper
 
-## npm add mysqlasyncawaitwrapper
+## npm i mysqlasyncawaitwrapper
 
 
 the node js mysql module ( mysql.js https://www.npmjs.com/package/mysql ) is Only support Callbacks.

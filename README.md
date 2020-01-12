@@ -49,9 +49,9 @@ use it !
 
 .connect method return connected,release method.
 
-connected method is  used send query
+connected method is used sending query
 
-release method is used return connection to db pools
+release method is used returning connection to db pools
 
 <hr/>
 

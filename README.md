@@ -4,6 +4,57 @@ https://www.npmjs.com/package/mysqlasyncawaitwrapper
 
 ## npm add mysqlasyncawaitwrapper
 
+
+the node js mysql module ( mysql.js https://www.npmjs.com/package/mysql ) is Only support Callbacks.
+
+this wrapping package, wrap the mysql module and returning Promise.
+
+so you can use async / await syntax with mysql js Package
+
+### Usage
+
+1. you need to make DB file , and put in Config.json file like this.
+
+![file](./images/FilePlacement.png)
+
+2. set Mysql connection Config like this.
+
+
+![file](./images/Config.png);
+
+
+(https://www.npmjs.com/package/mysql) 
+
+it is completely same mysql module connection confifg.
+
+3. requireing library
+
+```js
+let mysqlAsync = require('mysqlasyncawaitwrapper');
+```
+
+4. 
+
+```js
+let {connected,release} = await mysqlAsync.connect();
+
+const INSERT = 'INSERT INTO CATEGORY (NAME) VALUES("TEST")';
+let result = await connected(INSERT);
+...
+release();
+```
+
+
+use it !
+
+.connect method return connected,release method.
+
+connected method is  used send query
+
+release method is used return connection to db pools
+
+<hr/>
+
 node js mysql 모듈은 콜백 기반이기 때문에 제가 너무 좋아하는 async/await 문법을 사용할 수 없어 만든 작은 라이브러리입니다. !
 
 node js mysql 모듈을 감싸 Promise 기반의 모듈로 변형하는 역할을 수행합니다. !

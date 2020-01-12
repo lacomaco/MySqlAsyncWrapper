@@ -25,9 +25,9 @@ so you can use async / await syntax with mysql js Package
 
 (https://www.npmjs.com/package/mysql) 
 
-it is completely same mysql module connection confifg.
+it is completely same mysql module connection config.
 
-3. requireing library
+3. get in library
 
 ```js
 let mysqlAsync = require('mysqlasyncawaitwrapper');
